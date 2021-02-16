@@ -1,0 +1,37 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(124, 0, 62);
+}
+
+main section:first-child{
+    padding:0,
+}
+
+header {
+margin-bottom: 100px;
+float: left ;
+background-color: #6d6b6b;
+
+}
+
+header nav ul li{
+    display: inline-block; 
+    text-decoration: none;
+    padding: 30px;
+    color:rgb(255, 255, 255);
+}
+
+div img {
+    float: left;
+    }
+
+
+
+
+
+
