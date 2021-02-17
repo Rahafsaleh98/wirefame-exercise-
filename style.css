@@ -1,37 +1,53 @@
-
 *{
     box-sizing: border-box;
 }
-
-body{
+header{
     text-align: center;
-    background-color: rgb(124, 0, 62);
+    
 }
 
-main section:first-child{
-    padding:0,
+.head  {
+    width: 90%;
+    background-color: rgb(165, 161, 161);
+    display: inline-block;
+      
 }
-
-header {
-margin-bottom: 100px;
-float: left ;
-background-color: #6d6b6b;
+nav {
+    display: inline-block;
+}
+li{
+    margin: 40px;
+    display: inline-block;
 
 }
-
-header nav ul li{
-    display: inline-block; 
+.head nav ul li a{
     text-decoration: none;
-    padding: 30px;
-    color:rgb(255, 255, 255);
+    
 }
+section{
+    text-align: center;
+    width: 50%;
+    margin-left: 170px;
+}
+.more{
+    display: flex;
+}
+.edit {
+    
+    flex: 33.33%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+ .proparty{
+    text-align: center;
+    margin-left: 170px;
+    width: 30%;
 
-div img {
-    float: left;
-    }
+  }
+.thelast{
 
+    width: 50%;
+    margin-right: 40px;
+    float: right;
 
-
-
-
-
+}
